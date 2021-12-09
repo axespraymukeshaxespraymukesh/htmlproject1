@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div~h2{
+            color:seagreen;
+            background-color: slateblue;
+        }
+        div+h2{
+            color:slategray;
+        }
+        body div{
+            color:yellow
+        }
+        body>div{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div>div1</div>
+    <h2>head1</h2>
+    <h2>head2</h2>
+    <section>
+        <h1>section</h1>
+    </section>
+    <div>div2</div>
+    <p>para</p>
+    <h2>head3</h2>
+    
+</body>
+</html>
